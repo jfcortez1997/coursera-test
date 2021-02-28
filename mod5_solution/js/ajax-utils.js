@@ -60,7 +60,7 @@ function handleResponse(request,
 
 
 // Expose utility to the global object
-global.$ajaxUtils = 'hello' //ajaxUtils;
+global.$ajaxUtils = ajaxUtils;
 
 
 })(window);
